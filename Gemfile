@@ -26,9 +26,6 @@ gem 'jbuilder', '~> 2.11'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1'
-
-# AWS S3
-gem 'aws-sdk-s3', '~> 1.114'
 # Webrick
 gem 'webrick', '~> 1.7'
 # Mail gem
@@ -39,6 +36,9 @@ gem 'mail', '>= 2.8.0.rc1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# Use AWS S3
+gem 'aws-sdk-s3', '~> 1.126'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.13', require: false
